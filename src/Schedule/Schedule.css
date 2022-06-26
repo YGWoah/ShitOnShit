@@ -1,0 +1,140 @@
+.schedule{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.class-Name{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.table{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tr{
+    display: flex;
+    justify-content: space-between;
+    border: #00000017 solid 2px;
+    border-radius: 10px;
+}
+.tr th{
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #00000017 solid 2px;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.tr td{
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #00000017 solid 2px;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.course{
+    width: fit-content;
+    max-width: 15rem;
+    padding: 00.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Days{
+    display: flex;
+    grid-gap: 64px;
+    background: #f2f5f7;
+    grid-gap: 0px;
+    grid-gap: 0px;
+    border-radius: 0px 0px 0px 20px;
+    grid-gap: 0px;
+    gap: 0px;
+    margin-bottom: 0px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.Times{
+    display: flex;
+    padding-left: 24px;
+    grid-gap: 64px;
+    font-weight: 800;
+    background: #f2f5f7;
+    gap: 0px;
+    margin-right: 0px;
+    align-items: center;
+}
+
+.Events {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0;
+    grid-row-gap: 0px;
+}
+.colom {
+    display: flex;
+    flex-direction: row;
+}
+.Time{
+    display: flex;
+    height: 85px;
+    width: 187px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.Event{
+    height: 110px;
+    width: 202px;
+    border: 1px solid #f2f5f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+    .Day{
+        width: 137px;
+        display: flex;
+        font-size: 15px;
+        font-weight: 800;
+        height: 110px;
+        align-items: center;
+        justify-content: center;
+    }
+    .header_table{
+        background-color: #f2f5f7;
+        display: flex;
+        align-items: center;
+        padding: 14px 0px;
+        border-radius: 20px 20px 0px 0px;
+        font-size: 20px;
+        justify-content: center;
+    }
+    .Schedule{
+        margin-bottom: 70px;
+        box-shadow: 0 0 20px 2px #00000017;
+        border-radius: 20px;
+    }
